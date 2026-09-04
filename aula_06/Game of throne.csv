@@ -1,0 +1,398 @@
+status;nome;cpf;idade;data_nascimento;cidade;regiao;renda_mensal;credito_tomado;flag_inadimplente;qtde_batalhas;nivel_risco;flag_inadimplente;valor_solicitado
+Ativo;Ellaria Baelish;000.000.336-00;32;13/01/1994;Ninho da Águia;Vale;15600;0;Sim;34;;Sim;16000
+Inativo;Stannis Lannister;36100;24;26/02/2002;Ponta Tempestade;Terras da Tempestade;11000 moedas;76500;Sim;33;;Sim;26000
+Ativo;Asha Hornwood;000.000.363-00;33;34144;Pedra do Dragão;Terras da Coroa;21500 moedas;N/A;não;22;;não;51500
+Ativo;Jorah Dondarrion;000.000.210-00;63;23156;Pyke | Ilhas de Ferro;;10400 moedas;8500;não;39;;não;36500
+Ativo;Jojen Florent;000.000.321-00;32;34299;Ninho da Águia;vale;R$ 30.000,00;;Não;5;;Não;65000
+Ativo;Olenna Baelish;000.000.191-00;48;28647;Lannisporto;;13200;3500 moedas;Não;1;;Não;32500
+ATIVO;Brienne Manderly;000.000.076-00;28;04/02/1998;Lannisporto;Oeste;8600 moedas;R$ 19.000,00;Sim;4;;Sim;32500
+Inativo;yara targaryen;000.000.059-00;42;08/05/1984;Pyke;Ilhas De Ferro;18200 moedas;31000 moedas;Não;19;;Não;63500
+Ativo;Margaery Tarly;000.000.274-00;34;21/01/1992;Pyke;ilhas de ferro;8000;14.500;Sim;9;;Sim;17500
+Inativo;Viserys Seaworth;000.000.024-00;61;17/10/1964;Meereen;Essos;23000 moedas;44500;Sim;32;;Sim;2000
+Ativo;Tormund  Cerwyn;000.000.039-00;33;34147;Meereen;Essos;28700;12500;Não;41;;Não;99500
+Ativo;catelyn westerling;35800;70;20515;Braavos;Essos;19500 moedas;62000;Sim;45;;Sim;35500
+Ativo;Robb Baratheon;000.000.365-00;54;24/03/1972;Ponta Tempestade;Terras da Tempestade;22100;37000;Não;34;;Não;87000
+Ativo;Asha Tallhart;8600;;32260;Pyke;Ilhas de Ferro;17600 moedas;0;Sim;31;;Sim;47500
+Inativo;Missandei Tarly;200;55;25892;Ponta Tempestade;TERRAS DA TEMPESTADE;5300;6.500;Não;42;;Não;96000
+Inativo;Jeor Mallister;000.000.162-00;47;29064;Correrrio;Terras Fluviais;13300;1000;Sim;24;;Sim;61500
+Inativo;Eddard Crakehall;31800;43;30391;Castelo Negro;Norte;7100;5500 moedas;Não;23;;Não;67000
+Ativo;Podrick Swyft;000.000.090-00;32;03/05/1994;Correrrio;TERRAS FLUVIAIS;21.300;R$ 48.000,00;Não;11;;Não;35000
+Ativo;Podrick Dayne;22300;25;01/11/2000;Vilavelha;Campina;9.400;51500;Não;14;;Não;29500
+Ativo;Ellaria Seaworth;000.000.125-00;23;37627;Correrrio;TERRAS FLUVIAIS;;69000;Não;20;;Não;69000
+Inativo;Melisandre Clegane;000.000.231-00;53;26/11/1972;Ilha dos Ursos;NORTE;16.500;R$ 4.000,00;Não;14;;Não;36000
+Ativo;Robert Karstark;000.000.184-00;;21378;Meereen;;14300;32500;Sim;15;;Sim;8000
+Inativo;rhaegar stark;000.000.119-00;33;23/04/1993;Meereen;Essos;23600;75.500;Não;16;;Não;88000
+Ativo;Loras Greyjoy;000.000.362-00;68;21145;Fosso Cailin;Norte;29000;67500;Não;25;;Não;18000
+Inativo;Jorah Hightower;000.000.346-00;62;05/09/1963;Pedra do Dragão;TERRAS DA COROA;;0;Sim;1 batalhas;;Sim;12000
+Ativo;Loras Clegane;000.000.287-00;58;24911;Harrenhal;Terras Fluviais;R$ 25.400,00;70500;Sim;11;;Sim;47000
+Ativo;Jojen Florent;34300;48;10/10/1977;Winterfell;;13.300;42000;Sim;27;;Sim;40000
+Ativo;samwell yronwood;000.000.124-00;29;35323;Jardim de Cima;Campina;21200;75000;Não;6;;Não;63500
+Ativoo;Catelyn Yronwood;000.000.226-00;38;32166;Castelo Negro;norte;19500 moedas;39000;Não;25;;Não;88500
+Inativo;Brienne Reed;000.000.306-00;68;21293;Pyke;Ilhas de Ferro;3800;70000;Sim;34;;Sim;7500
+Ativo;Rhaegar Umber;000.000.247-00;19;18/05/2007;Vilavelha;Campina;18000;50500;sim;11;;sim;26000
+Ativo;Roose Manderly;15400;42;30642;Dorne;Dorne;sem renda;19500;Não;42;;Não;89500
+Ativo;Jeor Florent;000.000.249-00;27;36319;Ponta Tempestade;terras da tempestade;28800;78.500;Não;2;;Não;53000
+Ativo;Bran Yronwood;000.000.057-00;42;30878;Pyke;Ilhas de Ferro;17500;3500;Nao;25;;Nao;35000
+Ativo;BRONN ARRYN;000.000.016-00;44;29975;Lannisporto;oeste;5300;6000;Sim;1;;Sim;4500
+Ativo;Shae Clegane;000.000.205-00;40;07/05/1986;Fosso Cailin;Norte;9900;3500;Não;1;;Não;23500
+Ativo;Ramsay Hornwood;000.000.005-00;65;16/11/1960;Pyke;Ilhas De Ferro;23400 moedas;28000;Não;34;;Não;74000
+;MEERA PAYNE;000.000.131-00;63;22974;Dorne;DORNE;R$ 14.700,00;0;sim;40;;sim;83500
+Ativo;MELISANDRE BARATHEON;000.000.364-00;22;;Meereen;Essos;14400;0;Não;27 batalhas;;Não;33500
+ATIVO;Podrick Targaryen;000.000.050-00;39;31879;Vilavelha;Campina;29900 moedas;0;Não;39;;Não;75000
+Ativo;Margaery Manderly;000.000.222-00;63;23231;Winterfell;Norte;16800;0;;32;;;61500
+Ativo;Daenerys Seaworth;000.000.341-00;54;07/10/1971;Vilavelha;CAMPINA;29700;34000;Não;35;;Não;35000
+Ativo;Brienne Manderly;000.000.140-00;29;35472;Fosso Cailin | Norte;;11900;65000;Sim;29;;Sim;12000
+Ativo;Jorah Redwyne;16500;37;32513;Monte Chifre;campina;R$ 2.600,00;N/A;Não;5;;Não;16500
+Ativo;Margaery  Hornwood;15100;25;22/08/2001;Dorne;Dorne;2500;72500;Não;32;;Não;97000
+Ativo;Arya Redwyne;000.000.333-00;21;38323;Correrrio;Terras Fluviais;3800 moedas;0;Não;25;;Não;50000
+Ativo;VARYS BRACKEN;000.000.215-00;28;02/04/1998;Porto Real;Terras da Coroa;2000 moedas;51000;Nao;12;;Nao;72500
+Ativo;Brienne Royce;10800;39;20/12/1986;Vilavelha;campina;24700;23500 moedas;Não;43;;Não;57000
+Ativo;Rickon Redwyne;15000;73;19588;Fosso Cailin;Norte;28.600;40500;Não;20;;Não;2500
+Ativo;Tormund Karstark;000.000.284-00;42;12/12/1983;Castelo Negro;NORTE;20400;0;Nao;0;;Nao;81000
+Ativo;Bran Dayne;000.000.288-00;48;01/11/1977;Pyke;Ilhas De Ferro;4500 moedas;0;Não;3;;Não;48500
+Inativo;Jorah Dondarrion;000.000.294-00;39;08/10/1986;Lannisporto;Oeste;22200;0;Sim;3;;Sim;7000
+Ativo;Aegon Frey;000.000.338-00;56;18/11/1969;Dorne;Dorne;11100 moedas;63000;Não;0;;Não;56000
+Ativo;Daenerys Snow;14200;48;10/07/1978;Dorne | Dorne;;15800;N/A;Não;12;;Não;69500
+Ativo;Asha Baratheon;000.000.195-00;70;25/04/1956;Braavos;Essos;16300;16500;Não;25;;Não;65500
+ATIVO;Rickon Crakehall;000.000.066-00;24;37435;Atalaia da Água Cinzenta;gargalo;6100;;NÃO;15;;NÃO;67000
+Ativo;Eddard Mallister;000.000.309-00;47;28802;Atalaia da Água Cinzenta;GARGALO;22700;8500;;35;;;23500
+Ativo;Daario Clegane;000.000.270-00;33;04/10/1992;Castelo Negro;NORTE;29.700;22000;Não;38 batalhas;;Não;81000
+Inativo;Ellaria Mallister;000.000.194-00;38;21/11/1987;Pyke;ilhas de ferro;13500;24000;Não;2;;Não;17500
+Inativo;Stannis  Cerwyn;3400;35;27/11/1990;Winterfell;norte;17600;44000;NÃO;22;;NÃO;56500
+Inativo;ELLARIA TARLY;000.000.026-00;67;21512;Braavos;ESSOS;R$ 3.200,00;6500;Não;20;;Não;52500
+ativo;Daario Tyrell;000.000.251-00;51;14/12/1974;Pyke;Ilhas De Ferro;16300;;Nao;8;;Nao;33000
+Inativo;Daario Marbrand;000.000.014-00;46 anos;15/09/1979;Fosso Cailin;Norte;15000;32500;Não;40;;Não;4500
+Ativo;Thoros Tarth;23900;39;31740;Pyke;ILHAS DE FERRO;R$ 13.200,00;N/A;Não;38 batalhas;;Não;36000
+Ativo;Arya Marbrand;000.000.133-00;24;37172;Ninho da Águia;Vale;21600;R$ 25.000,00;Não;33;;Não;17500
+Ativo;Davos Tyrell;16100;57;;Lannisporto;oeste;sem renda;;Sim;28 batalhas;;Sim;13000
+Ativo;Lyanna Florent;6300;68;;Pedra do Dragão;Terras da Coroa;19.900;35000;Nao;25;;Nao;59500
+Ativo;Varys Bolton;27200;56;22/05/1970;Fosso Cailin;Norte;14100;1500;Não;26;;Não;36000
+ATIVO;Shae Seaworth;000.000.030-00;33;27/02/1993;Braavos;essos;3400;0;Não;13;;Não;70000
+Ativo;Jojen Reed;000.000.136-00;41;19/09/1984;Ponta Tempestade;Terras da Tempestade;20000 moedas;20.500;Sim;8;;Sim;44000
+Ativo;Podrick Blackwood;000.000.135-00;;18/03/1994;Dorne;Dorne;;0;Não;20;;Não;42000
+Ativo;Renly Mallister;000.000.372-00;34;33525;Winterfell;;28000;36500;Não;33;;Não;60000
+Ativo;Cersei Clegane;000.000.323-00;24;37259;Dorne;Dorne;25200;0;Não;10;;Não;69500
+Ativo;BERIC CRAKEHALL;000.000.067-00;55;26104;Pyke;Ilhas De Ferro;22.100;41500;Não;18;;Não;65000
+Inativo;Ellaria Bracken;000.000.138-00;59;24512;Monte Chifre;CAMPINA;6300;15000;Não;42;;Não;8500
+Inativo;Ellaria  Reed;000.000.311-00;70;17/02/1956;Lannisporto;Oeste;2.500;0;Não;38;;Não;44500
+Ativo;Daenerys Tallhart;000.000.092-00;37;32543;Vilavelha;Campina;29200;R$ 45.000,00;Não;26;;Não;23500
+Ativo;Lyanna Marbrand;000.000.283-00;27;36308;Correrrio;Terras Fluviais;5300;22000 moedas;NÃO;11;;NÃO;28500
+Ativo;Ramsay Dondarrion;000.000.054-00;55;25874;Dorne;dorne;29.100;5500 moedas;Não;11;;Não;56000
+ATIVO;Thoros  Baelish;000.000.011-00;53;28/05/1973;Meereen;Essos;27800;R$ 52.000,00;Não;43;;Não;93500
+Ativo;Melisandre Blackwood;000.000.051-00;40;31647;Fosso Cailin;Norte;R$ 18.700,00;15000;;26;;;89500
+Ativo;Yara Baelish;34400;64;22836;Solar do Entardecer;Terras Da Tempestade;24300;16.500;Sim;24;;Sim;57000
+Ativo;Cersei Stark;000.000.293-00;25;19/07/2001;Ninho da Águia;Vale;28.800;;Não;12;;Não;46500
+Ativo;Jon  Karstark;000.000.139-00;55 anos;16/08/1971;Jardim de Cima;;12200;70500 moedas;não;33;;não;78000
+Ativo;Yara Royce;32000;68;21162;Castelo Negro;Norte;11.500;17500;Não;19;;Não;26000
+Ativo;Jeor Lannister;000.000.091-00;37;32412;Fosso Cailin;norte;24700;R$ 23.000,00;Sim;10 batalhas;;Sim;37500
+Ativo;bran florent;000.000.218-00;62;23488;Ninho da Águia;Vale;sem renda;N/A;Não;38 batalhas;;Não;72000
+Ativo;Jojen Redwyne;000.000.334-00;24 anos;37491;Dorne;dorne;R$ 8.900,00;19500;Sim;33;;Sim;96500
+Ativo;Bronn Mallister;000.000.200-00;35;;Vilavelha;Campina;28000;76500 moedas;Não;39;;Não;32000
+Ativo;Olenna Reed;000.000.248-00;40;31408;Braavos | Essos;;17400;53.000;Sim;20;;Sim;52500
+Ativoo;Jon Hightower;000.000.081-00;59;24362;Winterfell;Norte;18900;1000;sim;42;;sim;16500
+Inativo;renly dayne;000.000.065-00;;19672;Dorne;Dorne;21000;0;Nao;11;;Nao;75500
+Ativo;Missandei Karstark;000.000.044-00;42;16/12/1983;Pedra do Dragão;terras da coroa;6000;R$ 55.000,00;Não;5;;Não;10000
+Ativo;Catelyn Cerwyn;000.000.308-00;60;06/12/1965;Atalaia da Água Cinzenta;gargalo;13.800;45500;Não;30;;Não;17500
+Ativo;Margaery Dayne;000.000.276-00;36;32791;Jardim de Cima;CAMPINA;23900;58000;Não;27;;Não;38000
+Ativo;Rickon Karstark;000.000.088-00;74;19121;Castelo Negro;Norte;7300;1000;Não;3;;Não;50500
+Ativoo;Jorah Seaworth;20700;66;23/08/1960;Fosso Cailin | Norte;;28800 moedas;16000;Sim;44;;Sim;59000
+Ativo;Stannis Redwyne;000.000.216-00;34;33835;Jardim de Cima | Campina;;5100;17000;Não;3 batalhas;;Não;4500
+Ativo;Yara Royce;000.000.277-00;65;04/06/1961;Ninho da Águia;vale;12700;R$ 60.500,00;Não;36;;Não;28000
+Inativo;LORAS BAELISH;000.000.217-00;68;20/01/1958;Jardim de Cima;Campina;8200;R$ 66.000,00;Não;16;;Não;84000
+Inativo;Viserys Florent;000.000.129-00;59;23/03/1967;Meereen;Essos;R$ 15.200,00;11000;NÃO;27;;NÃO;87000
+Ativo;Jon Marbrand;000.000.359-00;29;35600;Porto Real;terras da coroa;10000;25500;Não;15;;Não;66000
+Ativo;Aegon Bracken;000.000.244-00;69;20725;Correrrio;terras fluviais;8100;27500;NÃO;42;;NÃO;72500
+Ativo;Daenerys Tallhart;000.000.092-00;37;32543;Vilavelha;Campina;29200;R$ 45.000,00;Não;26;;Não;78000
+Inativo;loras payne;000.000.027-00;30;15/05/1996;Braavos;ESSOS;26500;14500;0;15;;0;65500
+Ativo;Missandei  Tarly;000.000.196-00;58;24905;Meereen;ESSOS;12.400;21.500;Sim;24 batalhas;;Sim;80000
+Ativo;Aegon Baelish;24000;47;25/06/1979;Meereen | Essos;;28.400;78000;Não;37;;Não;99000
+Ativo;MELISANDRE TARGARYEN;000.000.170-00;31;02/06/1995;Fosso Cailin | Norte;;20500;R$ 47.500,00;Não;11;;Não;18500
+loqueado;Roose Cerwyn;000.000.047-00;63;23084;Vilavelha;Campina;17300;22000;Não;10;;Não;97000
+Ativo;Shae Frey;12700;26;24/12/1999;Ilha dos Ursos;Norte;R$ 5.000,00;61500 moedas;Não;35;;Não;18500
+Ativo;Lyanna Swyft;18000;29;35344;Ninho da Águia;vale;19900;49500;Sim;27;;Sim;23000
+Ativo;Rhaegar Targaryen;000.000.342-00;51;19/01/1975;Fosso Cailin;NORTE;18500;69.500;Não;31 batalhas;;Não;18000
+Ativo;Varys Targaryen;000.000.234-00;46;08/12/1979;Meereen;Essos;3200;0;Não;16;;Não;61500
+Ativo;Robb Stark;000.000.228-00;65;12/08/1961;Ilha dos Ursos;Norte;R$ 29.000,00;28500;Não;28;;Não;57500
+Ativo;Gendry Hightower;000.000.167-00;26;36475;Harrenhal | Terras Fluviais;;13900;R$ 53.500,00;Não;12;;Não;85000
+Inativo;tormund glover;000.000.087-00;63;22994;Pyke;ilhas de ferro;20000;R$ 29.500,00;Não;42;;Não;5000
+Ativo;Tyrion Snow;27900;71;05/01/1955;Monte Chifre;Campina;24100;0;NÃO;10;;NÃO;87000
+Ativo;Beric  Umber;;73;19538;Pedra do Dragão;terras da coroa;12700;R$ 79.500,00;Não;35;;Não;39000
+Ativo;Varys Florent;26400;57;25238;Harrenhal | Terras Fluviais;;3200;;Não;18;;Não;64000
+Ativo;Catelyn Umber;9900;64;01/07/1962;Harrenhal;TERRAS FLUVIAIS;R$ 2.900,00;R$ 76.000,00;Não;32;;Não;72500
+Inativo;Samwell Glover;16000;73;01/11/1952;Ponta Tempestade;TERRAS DA TEMPESTADE;7100;R$ 58.000,00;Sim;22;;Sim;46500
+Ativo;Thoros Clegane;000.000.141-00;28;17/07/1998;Lannisporto;Oeste;R$ 13.400,00;R$ 54.000,00;Não;15;;Não;99000
+Ativo;THEON BARATHEON;000.000.375-00;26;36622;Dorne;Dorne;22900 moedas;R$ 65.500,00;SIM;40;;SIM;95500
+Ativo;Melisandre  Baelish;000.000.152-00;69;19/08/1957;Ponta Tempestade;Terras da Tempestade;25100 moedas;40500;Não;43;;Não;24500
+Ativo;Robert Yronwood;000.000.075-00;67;15/03/1959;Winterfell;NORTE;8500;R$ 39.500,00;Sim;;;Sim;42000
+Ativo;Meera Reed;000.000.314-00;53;12/10/1972;Fosso Cailin;Norte;12200;R$ 79.500,00;Nao;45;;Nao;57000
+Ativo;tormund royce;000.000.297-00;55;25880;Ponta Tempestade;Terras da Tempestade;27500;14000;Não;3;;Não;11500
+Ativo;Rickon Karstark;8900;;23/08/1991;Atalaia da Água Cinzenta;gargalo;24000;0;Sim;3;;Sim;60000
+Inativo;Podrick Blackwood;8300;31;34828;Porto Real;Terras da Coroa;24.900;72000;Não;35;;Não;79000
+Ativo;Tyrion Karstark;3800;41;06/11/1984;Lannisporto;OESTE;28.600;R$ 67.500,00;Não;39;;Não;22000
+Ativo;Missandei Florent;000.000.282-00;56;25671;Harrenhal;Terras Fluviais;28300;56000;Não;6;;Não;77000
+Ativo;Varys  Stark;37700;23;06/11/2002;Braavos;ESSOS;2600;0;Sim;30;;Sim;11000
+Ativo;Jeor Karstark;000.000.310-00;25;37137;Ninho da Águia;Vale;;21.000;Não;34;;Não;7500
+Ativo;RENLY MORMONT;000.000.376-00;57;25199;Vilavelha;CAMPINA;R$ 20.700,00;64500;Não;19 batalhas;;Não;54500
+ativo;Eddard Royce;000.000.181-00;73;16/11/1952;Pedra do Dragão;Terras Da Coroa;6100;16000 moedas;Não;9;;Não;24500
+Ativo;Rhaegar Lannister;37000;24;03/02/2002;Jardim de Cima;campina;R$ 6.400,00;41.000;Não;22;;Não;74500
+ATIVO;Varys Blackwood;000.000.373-00;47;;Braavos;;11.600;63.500;0;18;;0;3000
+Inativo;EDDARD WESTERLING;000.000.094-00;52;27186;Ponta Tempestade;terras da tempestade;6400;37000;Não;1;;Não;87000
+Inativo;Varys  Blackwood;26700;54;26453;Atalaia da Água Cinzenta;gargalo;3900;80000;Não;41 batalhas;;Não;30000
+Ativo;Olenna Bracken;000.000.225-00;45;12/01/1981;Lannisporto;oeste;22800;;Não;10;;Não;31000
+Ativo;Aegon Marbrand;35200;65;22337;Castelo Negro;Norte;3800;49500;Não;16;;Não;15500
+Ativo;Beric Tyrell;000.000.242-00;66;22151;Vilavelha;Campina;11800;R$ 2.000,00;Sim;23;;Sim;72500
+Inativo;Asha Manderly;000.000.357-00;29;35607;Ilha dos Ursos;Norte;13800;41500;Não;34;;Não;66000
+Ativo;Ellaria Mormont;000.000.157-00;22;10/10/2003;Ponta Tempestade;Terras da Tempestade;2300;0;Sim;29 batalhas;;Sim;51500
+Inativo;Grey Worm Baratheon;000.000.221-00;29;35598;Dorne;Dorne;15500;75000;NÃO;25;;NÃO;47000
+Ativo;Ellaria Swyft;000.000.115-00;72;19839;Ninho da Águia;VALE;R$ 3.900,00;27000;Não;33;;Não;2000
+Ativo;Grey  Worm  Greyjoy;000.000.182-00;58;16/08/1968;Jardim de Cima;campina;4.500;;Sim;31;;Sim;97500
+Ativoo;Jeor  Payne;20900;33;34021;Ponta Tempestade;Terras da Tempestade;;73500;Não;33;;Não;95000
+Ativo;Bronn Royce;36900;61;23928;Solar do Entardecer;Terras da Tempestade;22900;7500;Não;12;;Não;73000
+Ativo;Robert Hornwood;000.000.259-00;73;19363;Jardim de Cima;Campina;23000 moedas;R$ 19.000,00;Não;0;;Não;17000
+inativo;Asha Bolton;6900;51;27590;Castelo Negro;Norte;19.400;4000;Não;30;;Não;38500
+Ativo;Bronn Blackwood;000.000.052-00;43;24/12/1982;Atalaia da Água Cinzenta;gargalo;R$ 18.400,00;62000;Não;33;;Não;31000
+Inativo;Daario Arryn;000.000.173-00;63;23119;Ninho da Águia;vale;9300;48500;Não;28;;Não;20000
+Inativo;Jeor Marbrand;000.000.073-00;63;05/10/1962;Braavos;ESSOS;29000;R$ 36.500,00;Não;38;;Não;47000
+Inativo;Petyr Karstark;23700;;19234;Jardim de Cima;Campina;R$ 8.900,00;R$ 4.000,00;Não;38;;Não;22500
+;Ramsay Stark;000.000.169-00;61;23813;Braavos;Essos;R$ 26.300,00;40000;Sim;10 batalhas;;Sim;16500
+Ativo;Thoros Karstark;000.000.012-00;53;28/11/1972;Atalaia da Água Cinzenta;Gargalo;R$ 22.700,00;42500;Sim;25;;Sim;86000
+Ativo;Ellaria Martell;000.000.148-00;48;28673;Atalaia da Água Cinzenta;Gargalo;R$ 2.300,00;26500;não;44;;não;81000
+Inativo;Yara Payne;000.000.250-00;;38001;Fosso Cailin;NORTE;2100;79500;Sim;29;;Sim;64000
+Inativo;Viserys Baratheon;000.000.186-00;33;17/12/1992;Winterfell;Norte;25700;35000;Não;40;;Não;1000
+Inativo;Jeor Clegane;27300;66;21873;Fosso Cailin;Norte;R$ 9.900,00;42000 moedas;Não;13;;Não;37000
+Ativoo;SANDOR WESTERLING;33700;44;30167;Vilavelha;;5500;R$ 26.000,00;Não;30 batalhas;;Não;64000
+Inativo;Gilly Frey;000.000.258-00;33;04/07/1993;Castelo Negro;Norte;2400;R$ 78.000,00;Não;6;;Não;28000
+Ativo;Loras Bracken;000.000.254-00;51;21/04/1975;Atalaia da Água Cinzenta | Gargalo;;R$ 7.200,00;17500 moedas;Sim;40;;Sim;5500
+inativo;Varys Tallhart;;61;23932;Correrrio;Terras Fluviais;4100;78000;Não;25;;Não;48000
+Ativo;Roose Bracken;18800;43;30355;Ilha dos Ursos;Norte;R$ 21.700,00;31000;Não;27;;Não;45500
+Ativo;Varys Arryn;000.000.097-00;56;28/08/1970;Vilavelha;Campina;5400;61000;Não;12;;Não;96500
+ATIVO;Asha Redwyne;10200;35;25/07/1991;Pedra do Dragão;Terras da Coroa;8.400;62500;Não;31;;Não;83500
+Inativo;Beric Tallhart;000.000.291-00;44;29948;Dorne;Dorne;;0;Não;4;;Não;80000
+Inativo;Margaery Cerwyn;000.000.211-00;31;08/02/1995;Vilavelha;Campina;22600;58000;Nao;5 batalhas;;Nao;26500
+Inativo;Jorah Redwyne;4000;48;22/06/1978;Porto Real;Terras da Coroa;24700;30500;Não;34;;Não;87500
+Inativo;Loras Frey;000.000.017-00;30;35213;Jardim de Cima | Campina;;3900;45000;Não;34;;Não;41500
+Inativo;Bran Karstark;000.000.241-00;21;07/12/2004;Pyke;ILHAS DE FERRO;4400;23500;Sim;31;;Sim;91000
+Ativo;ROBERT CERWYN;30000;48;28509;Harrenhal;TERRAS FLUVIAIS;17800 moedas;R$ 9.000,00;0;28;;0;80000
+Ativo;Thoros Yronwood;000.000.201-00;;25925;Pyke;ILHAS DE FERRO;R$ 20.200,00;61000;Não;10;;Não;6500
+;Bronn Umber;000.000.177-00;56;17/05/1970;Porto Real;Terras da Coroa;R$ 11.100,00;R$ 13.000,00;Não;38;;Não;88000
+Ativo;Brienne Dayne;000.000.070-00;62;22/11/1963;Pedra do Dragão;Terras da Coroa;11900;58.500;Não;37;;Não;48000
+Ativo;Bronn Bolton;000.000.143-00;26;36619;Harrenhal;Terras Fluviais;26800 moedas;42500;Sim;29;;Sim;66000
+Ativo;Rhaegar Hornwood;000.000.178-00;30;14/02/1996;Ponta Tempestade;TERRAS DA TEMPESTADE;2600;62000;Não;22;;Não;62000
+Ativo;Meera Tarly;000.000.326-00;;23/06/1952;Pyke;Ilhas de Ferro;25000;0;Não;3;;Não;2500
+Inativo;THOROS HORNWOOD;000.000.245-00;65;22205;Castelo Negro;Norte;19800;78.500;Não;34;;Não;23000
+Inativo;Jeor Martell;000.000.061-00;58;11/09/1967;Meereen;Essos;20100 moedas;40000;Não;16;;Não;98500
+Ativo;Lyanna Stark;000.000.023-00;45;29769;Ponta Tempestade;terras da tempestade;24400;R$ 7.500,00;Nao;13;;Nao;95000
+Ativo;Rhaegar Tallhart;34800;26;36596;Ilha dos Ursos;norte;3500;50000;0;40;;0;46500
+Ativo;Petyr Greyjoy;000.000.301-00;42;30898;Lannisporto;;20800;R$ 54.000,00;Não;4;;Não;73500
+Inativo;Renly Redwyne;000.000.045-00;66;08/02/1960;Porto Real;TERRAS DA COROA;3400;78000;Não;9;;Não;51500
+inativo;Asha Arryn;000.000.122-00;49;28049;Castelo Negro;Norte;25200;59500;Não;37;;Não;86500
+Ativo;Podrick Florent;000.000.354-00;60;06/10/1965;Winterfell;NORTE;22900;4500;Sim;29;;Sim;43500
+INATIVO;Daario Cerwyn;17500;60;15/12/1965;Lannisporto;Oeste;10100;55000;Não;26;;Não;54000
+Ativo;Catelyn Tarly;16300;27 anos;05/04/1999;Castelo Negro;Norte;14000;63500;Não;24;;Não;87000
+Ativo;Rickon Lannister;000.000.197-00;53;26898;Fosso Cailin;Norte;27100;68000;Não;40 batalhas;;Não;49500
+Ativo;Jorah Marbrand;000.000.168-00;37;32414;Pedra do Dragão | Terras da Coroa;;12800;76500;Não;30 batalhas;;Não;18500
+Ativo;Renly Seaworth;35000;18;17/09/2007;Vilavelha;Campina;28900;22000;Não;23;;Não;90000
+Ativo;Lyanna Marbrand;000.000.283-00;27;36308;Correrrio;Terras Fluviais;5300;22000 moedas;NÃO;11;;NÃO;4500
+Ativo;robert mallister;000.000.037-00;25;36824;Castelo Negro;Norte;18300;41000;Não;9;;Não;32500
+Ativo;Ramsay Dayne;000.000.224-00;55;26103;Ponta Tempestade;Terras da Tempestade;9600;43000;Não;36;;Não;67500
+Ativo;BRIENNE KARSTARK;000.000.031-00;23;37530;Pyke | Ilhas de Ferro;;10700;15000;Não;42;;Não;81500
+Inativo;Tormund Greyjoy;000.000.009-00;58;24872;Pyke;ILHAS DE FERRO;R$ 12.500,00;44.500;NÃO;13;;NÃO;16000
+Ativo;Jaime Yronwood;;24;;Pedra do Dragão;Terras Da Coroa;17000;41000;Não;37;;Não;33000
+Ativo;Thoros Payne;7700;;17/10/1985;Harrenhal;Terras Fluviais;14000;0;Nao;24;;Nao;82000
+Ativo;Asha Tallhart;000.000.006-00;59;24710;Correrrio | Terras Fluviais;;19.900;55.000;Não;26;;Não;100000
+Inativo;theon tarth;000.000.289-00;74;19073;Lannisporto;;7100;61500;Não;1 batalhas;;Não;50500
+Ativo;Stannis Seaworth;000.000.316-00;64;28/08/1962;Pyke;Ilhas de Ferro;8.800;R$ 66.000,00;Não;28;;Não;5000
+Inativo;Tormund Greyjoy;000.000.009-00;58;24872;Pyke;ILHAS DE FERRO;R$ 12.500,00;44.500;NÃO;13;;NÃO;98500
+Ativo;Grey Worm Dondarrion;23300;38;32066;Meereen;Essos;9700;25.000;Não;0;;Não;55500
+Ativo;Olenna Arryn;9600;49;28330;Braavos;Essos;11500;44500;Não;45;;Não;3000
+Ativo;Tyrion Tyrell;19000;42;12/02/1984;Ilha dos Ursos;Norte;18500;R$ 59.000,00;Não;44;;Não;16500
+Ativo;Robb Clegane;000.000.304-00;18;39338;Fosso Cailin;NORTE;14.100;38500;Não;7;;Não;11000
+Ativo;Bran Dondarrion;4900;18;39369;Meereen;essos;18500;74500;Sim;20;;Sim;45500
+Inativo;Jeor Baelish;000.000.332-00;66;03/05/1960;Dorne;dorne;14300 moedas;78000 moedas;Não;28;;Não;74500
+Ativo;Jaime Dondarrion;000.000.056-00;35;08/04/1991;Ninho da Águia;Vale;20900 moedas;54000;0;44;;0;18000
+Ativo;Loras Manderly;27800;38;32152;Monte Chifre | Campina;;2000;60000;Não;18 batalhas;;Não;54000
+Inativo;Daario Marbrand;000.000.014-00;46 anos;15/09/1979;Fosso Cailin;Norte;15000;0;Não;40;;Não;90500
+Ativo;Beric Seaworth;000.000.025-00;72;19800;Correrrio;Terras Fluviais;24300;13500;Não;33;;Não;14500
+Ativo;Lyanna Seaworth;000.000.041-00;69;;Braavos;Essos;4.500;0;Sim;32;;Sim;56500
+Ativo;Margaery Marbrand;000.000.146-00;22;38079;Ponta Tempestade;Terras da Tempestade;9200;R$ 5.000,00;Não;42;;Não;63500
+Ativo;Tormund Yronwood;000.000.187-00;39;31972;Correrrio;TERRAS FLUVIAIS;8700;4500 moedas;Não;16;;Não;93500
+Ativo;Ramsay Tarly;9800;35;21/07/1991;Pyke;ILHAS DE FERRO;R$ 2.000,00;R$ 5.500,00;Não;34;;Não;71000
+Ativo;Shae Mormont;000.000.114-00;72;19623;Lannisporto;Oeste;12.600;5.500;Não;35;;Não;21000
+Ativo;renly bolton;000.000.303-00;24;;Castelo Negro;Norte;29300;32000;Sim;26;;Sim;59000
+Inativo;Grey Worm Hornwood;000.000.322-00;26;36540;Pedra do Dragão;TERRAS DA COROA;24000;52000 moedas;Não;30;;Não;62500
+Ativo;Rhaegar Dayne;000.000.335-00;35;33309;Correrrio;Terras Fluviais;28500;R$ 48.500,00;Não;24;;Não;80500
+Ativo;BRAN BOLTON;000.000.003-00;23;13/06/2003;Porto Real;Terras Da Coroa;17.900;28000;Não;41;;Não;52500
+Inativo;Shae Tarly;000.000.235-00;33;33902;Jardim de Cima;campina;12500;51500;Sim;44;;Sim;24000
+Ativo;Shae Mormont;000.000.307-00;63;11/09/1962;Dorne;Dorne;5500;R$ 41.000,00;Não;2;;Não;54500
+Inativo;Melisandre Crakehall;000.000.260-00;31;05/07/1995;Pedra do Dragão;Terras da Coroa;16.400;45500 moedas;não;6;;não;49500
+ATIVO;Sandor Westerling;000.000.008-00;71;03/10/1954;Atalaia da Água Cinzenta;gargalo;15100;N/A;Não;42;;Não;77000
+Ativo;Petyr Snow;21900;67;21619;Ponta Tempestade;TERRAS DA TEMPESTADE;20200;6500;Não;1;;Não;98500
+Ativo;Robert Tarth;000.000.001-00;27;08/05/1999;Winterfell;Norte;29700;12000;Não;37;;Não;49000
+Ativo;Robb Greyjoy;000.000.227-00;25;14/06/2001;Fosso Cailin;Norte;25400;4000;Não;4;;Não;8500
+Ativo;Yara  Marbrand;000.000.266-00;70;20533;Atalaia da Água Cinzenta;Gargalo;9100;40500;Não;35;;Não;53000
+Inativo;Cersei  Marbrand;000.000.158-00;57;01/05/1969;Ilha dos Ursos;NORTE;9500;58000;Nao;23;;Nao;81500
+Inativo;Melisandre Baratheon;000.000.020-00;58;25054;Porto Real;TERRAS DA COROA;R$ 4.500,00;R$ 20.000,00;Sim;9;;Sim;49000
+Inativo;Yara Tallhart;6400;57;25206;Correrrio;terras fluviais;3400;0;Não;20;;Não;19500
+Ativo;Gilly Mormont;000.000.220-00;65;26/03/1961;Jardim de Cima;campina;18.000;0;Não;27;;Não;38500
+Ativo;Brienne Dondarrion;000.000.256-00;39;06/02/1987;Ilha dos Ursos;Norte;R$ 9.300,00;R$ 36.500,00;Não;;;Não;3000
+Ativo;Missandei Glover;30500;62;23278;Castelo Negro;Norte;17000;64000;Sim;21;;Sim;19000
+Inativo;Bronn Manderly;000.000.074-00;69;20785;Castelo Negro;NORTE;16000;R$ 48.000,00;Não;29;;Não;74500
+Inativo;Aegon Florent;27100;55;23/11/1970;Meereen;Essos;6800;12000;Não;6;;Não;11000
+Ativo;Daario  Dayne;000.000.144-00;25;15/05/2001;Solar do Entardecer;Terras da Tempestade;28200;0;Não;29;;Não;92500
+Inativo;Roose Cerwyn;34900;32 anos;34387;Castelo Negro;Norte;20500;0;Não;41 batalhas;;Não;54500
+Ativo;Roose Dondarrion;000.000.126-00;53;26620;Ninho da Águia;vale;R$ 21.300,00;79500;Não;18 batalhas;;Não;19000
+Ativo;Stannis Greyjoy;000.000.236-00;69;03/05/1957;Pedra do Dragão | Terras da Coroa;;13800;62000;Não;31;;Não;60500
+Ativo;Thoros Greyjoy;000.000.043-00;27;36316;Vilavelha;campina;10.700;60000 moedas;Não;44;;Não;48000
+Ativo;Thoros Crakehall;19300;74;17/05/1952;Porto Real;terras da coroa;20700;R$ 17.500,00;Não;35;;Não;65000
+ativo;Viserys  Umber;000.000.155-00;;39230;Jardim de Cima;Campina;18000 moedas;49.500;Não;25;;Não;46500
+Inativo;Grey Worm Hornwood;000.000.322-00;26;36540;Pedra do Dragão;TERRAS DA COROA;24000;52000 moedas;Não;30;;Não;11500
+Ativo;Cersei Greyjoy;000.000.265-00;47;17/12/1978;Dorne;Dorne;21300 moedas;62.000;Sim;37;;Sim;92500
+Ativo;Tormund Tyrell;000.000.378-00;34;33746;Dorne;Dorne;28900;37000;Não;21;;Não;97500
+Ativo;Bronn Stark;000.000.313-00;30;25/04/1996;Ilha dos Ursos;Norte;R$ 13.800,00;42000;;29;;;7000
+Inativo;Tyrion Blackwood;000.000.100-00;67;04/05/1959;Atalaia da Água Cinzenta;Gargalo;15200;67500;Não;12;;Não;97500
+Ativo;Brienne Westerling;000.000.379-00;59;16/04/1967;Atalaia da Água Cinzenta;;6600;50000;Sim;9;;Sim;25000
+Inativo;Beric Manderly;24300;25;37131;Lannisporto;Oeste;R$ 24.500,00;N/A;0;0;;0;55000
+Ativo;Jojen Hornwood;000.000.128-00;;32796;Pedra do Dragão;Terras da Coroa;28600;;Não;19;;Não;90000
+Inativo;theon baelish;000.000.380-00;36;32914;Atalaia da Água Cinzenta;Gargalo;27600;37000;Não;15;;Não;41500
+Inativo;Aegon Hornwood;17100;45;29506;Solar do Entardecer;Terras da Tempestade;5100;R$ 25.000,00;Não;29;;Não;88000
+ATIVO;Ellaria Redwyne;000.000.093-00;56;25551;Dorne;Dorne;22.600;63000;Não;33;;Não;53000
+Ativo;missandei redwyne;000.000.111-00;47;01/06/1979;Meereen;Essos;5000;75.500;Sim;2;;Sim;89500
+Ativo;Jorah Hightower;000.000.007-00;44;28/04/1982;Correrrio;Terras Fluviais;21700;34500;NÃO;29;;NÃO;10500
+Ativo;Eddard Payne;15900;26;08/09/1999;Correrrio;Terras Fluviais;9200 moedas;R$ 68.500,00;Não;27;;Não;7000
+Inativo;CERSEI GLOVER;000.000.324-00;49;10/06/1977;Pyke;Ilhas De Ferro;21900;69000;Não;4 batalhas;;Não;80500
+Ativo;Theon Karstark;000.000.296-00;71;20187;Braavos;Essos;29200;73500;Não;2;;Não;33000
+Ativo;Jon Cerwyn;000.000.112-00;65;22314;Ponta Tempestade;Terras Da Tempestade;6100;40000;Não;13 batalhas;;Não;22500
+Ativo;Jon Bolton;000.000.130-00;65;22297;Lannisporto;Oeste;27.300;48500;Não;29;;Não;94000
+Ativo;Robert Stark;000.000.315-00;57;25350;Harrenhal;Terras Fluviais;20600;52500;;16;;;97000
+Ativo;Tyrion Lannister;2800;24;37470;Solar do Entardecer;terras da tempestade;16900;42500;Sim;26 batalhas;;Sim;12500
+Inativo;Eddard Greyjoy;000.000.238-00;55;07/10/1970;Meereen;Essos;;5000;Não;8;;Não;11000
+Ativo;Thoros Greyjoy;000.000.374-00;67;23/01/1959;Atalaia da Água Cinzenta;gargalo;6400;1000;NÃO;27;;NÃO;50000
+Ativo;Gilly Marbrand;15600;44;29843;Pedra do Dragão;Terras da Coroa;11300;55000;Não;38;;Não;68500
+Ativo;Catelyn Lannister;000.000.110-00;33;34070;Solar do Entardecer;terras da tempestade;29300;69000;Sim;0;;Sim;4500
+Ativo;Gendry Cerwyn;000.000.153-00;24;37394;Lannisporto | Oeste;;14200;71000;Não;10;;Não;91500
+Ativo;Jon Dayne;31900;20;38678;Braavos;Essos;9.300;35.000;Não;5;;Não;10500
+Inativo;Renly Blackwood;000.000.106-00;20;18/12/2005;Solar do Entardecer;TERRAS DA TEMPESTADE;12900;R$ 26.500,00;Não;13;;Não;2000
+Ativo;Davos  Baratheon;000.000.055-00;;36337;Winterfell;Norte;22500;55500;Não;32;;Não;91500
+Ativo;Bronn Crakehall;29500;68;16/09/1957;Atalaia da Água Cinzenta;GARGALO;3600 moedas;64500;Sim;32;;Sim;35500
+Ativo;Jorah Marbrand;000.000.339-00;53;16/09/1972;Pedra do Dragão;TERRAS DA COROA;15500;;Não;16;;Não;41000
+Ativo;Cersei Umber;000.000.058-00;62;;Jardim de Cima;Campina;1900;3500;Não;19;;Não;62000
+Ativo;petyr yronwood;000.000.095-00;61;10/08/1965;Ilha dos Ursos;NORTE;7000;1500;Sim;32;;Sim;53000
+Ativo;Robert Westerling;000.000.105-00;25;37118;Jardim de Cima;Campina;27300 moedas;1500;1;33;;1;14000
+ativo;Jon Tarth;000.000.208-00;52;27088;Ponta Tempestade;Terras Da Tempestade;24900;0;Não;24 batalhas;;Não;16000
+Inativo;Jaime Seaworth;000.000.263-00;33;33989;Porto Real;TERRAS DA COROA;23400;59000;sim;35;;sim;39000
+Inativo;Jorah  Tyrell;000.000.229-00;48;28737;Porto Real;Terras da Coroa;12400;0;Não;25;;Não;65500
+Inativo;Eddard Stark;000.000.015-00;55;28/07/1971;Ninho da Águia;VALE;29700 moedas;78000 moedas;Sim;14;;Sim;27000
+Ativo;Lyanna Tarly;000.000.232-00;28;;Braavos;Essos;14500;39500;Não;18;;Não;32000
+Ativo;Cersei Tarth;000.000.147-00;52;14/09/1973;Ilha dos Ursos;Norte;7300;74000 moedas;Não;40;;Não;34500
+Ativo;Catelyn Mallister;000.000.062-00;63;26/12/1962;Castelo Negro | Norte;;11200;;;41;;;83500
+Ativo;Brienne Mallister;000.000.202-00;53;25/06/1973;Ilha dos Ursos | Norte;;9500;66.500;Sim;38;;Sim;42500
+Ativo;Stannis Crakehall;000.000.351-00;71;20275;Lannisporto;Oeste;14200;51000;Não;10;;Não;90500
+Ativo;Jorah Marbrand;000.000.168-00;37;32414;Pedra do Dragão | Terras da Coroa;;12800;76500;Não;30 batalhas;;Não;95000
+Ativo;Sansa Dondarrion;000.000.101-00;22;37936;Ninho da Águia;vale;4.100;2000;Não;8;;Não;4000
+Ativo;Beric  Karstark;000.000.172-00;37;32680;Braavos;Essos;28900;71000;Não;28;;Não;36500
+Ativo;Bran Umber;13200;29;35334;Pyke;Ilhas de Ferro;19500;R$ 57.000,00;Não;12;;Não;20500
+Ativo;Thoros Yronwood;000.000.104-00;51;27/01/1975;Dorne;Dorne;26000;47500;Não;45;;Não;60500
+Inativo;Davos Umber;000.000.353-00;74;23/02/1952;Lannisporto;Oeste;24000;35000;Não;6 batalhas;;Não;29500
+Ativo;Aegon Redwyne;000.000.347-00;19;39016;Pyke;ILHAS DE FERRO;14.900;17000;Não;20;;Não;29500
+Inativo;Robert Mallister;32700;57;15/06/1969;Braavos;ESSOS;28600;R$ 73.500,00;Não;29;;Não;93500
+Inativo;MARGAERY DONDARRION;19200;50;27833;Correrrio | Terras Fluviais;;16200;R$ 25.000,00;NÃO;26;;NÃO;65000
+Ativo;Robert Hornwood;28500;41 anos;31115;Castelo Negro;Norte;23100;36000;Não;19;;Não;37500
+Ativo;Roose Bolton;13700;73;25/11/1952;Atalaia da Água Cinzenta;Gargalo;18100;0;Não;36;;Não;89000
+Ativoo;Jon Hornwood;33100;;36759;Dorne;Dorne;23200;54500;1;26;;1;75000
+Ativo;Shae  Dayne;000.000.312-00;25;23/09/2000;Ninho da Águia;Vale;22100;30500;Não;28 batalhas;;Não;48000
+ATIVO;Petyr Swyft;000.000.275-00;36;33117;Atalaia da Água Cinzenta;Gargalo;11600;78500;Não;1;;Não;42000
+Inativo;Jaime Bracken;16600;35;33417;Jardim de Cima;campina;R$ 12.400,00;0;Não;3;;Não;83500
+Ativo;Rhaegar Mormont;000.000.109-00;64;18/07/1962;Fosso Cailin;norte;12700;0;Não;21;;Não;50500
+Ativo;Jorah Florent;000.000.204-00;49;28147;Porto Real;Terras Da Coroa;28400;38.500;Nao;26 batalhas;;Nao;51000
+Ativo;Asha Blackwood;000.000.085-00;50;06/05/1976;Dorne;Dorne;16100;8.000;Sim;30;;Sim;27000
+;Gilly Swyft;000.000.261-00;;11/11/1990;Braavos;Essos;29900;R$ 64.500,00;Não;34;;Não;48500
+Ativo;Bran Frey;000.000.189-00;39;10/07/1987;Ilha dos Ursos | Norte;;8000;69.000;Não;15;;Não;39500
+ATIVO;Rickon Targaryen;000.000.298-00;19;13/10/2006;Ilha dos Ursos;Norte;4000 moedas;29.500;Sim;13;;Sim;5000
+Inativo;Jeor Marbrand;000.000.073-00;63;05/10/1962;Braavos;ESSOS;29000;R$ 36.500,00;Não;38;;Não;68000
+Ativo;Lyanna Westerling;17900;44;09/02/1982;Porto Real;;6700;16500;Sim;38;;Sim;15500
+ATIVO;Jon Tarth;000.000.004-00;26;36671;Ponta Tempestade;terras da tempestade;25000;1000;Não;16;;Não;10500
+Ativo;RENLY STARK;25200;44;10/05/1982;Braavos;Essos;9600;66.000;;11;;;4500
+Ativo;olenna hornwood;29900;46 anos;;Castelo Negro;Norte;21300;60500;;15;;;74500
+Ativo;Aegon Blackwood;000.000.118-00;69;21054;Jardim de Cima;Campina;23.800;N/A;;26;;;89000
+Ativo;Brienne Glover;000.000.355-00;67;21522;Solar do Entardecer;Terras Da Tempestade;11300;49500;Não;12;;Não;34500
+Ativo;Ellaria Cerwyn;000.000.019-00;51 anos;15/12/1974;Dorne;Dorne;R$ 11.600,00;41000;Não;7 batalhas;;Não;67000
+Ativo;Loras Lannister;000.000.302-00;49;03/11/1976;Pyke;Ilhas de Ferro;29800;54.500;Não;34;;Não;72000
+Ativo;Beric Tyrell;000.000.103-00;20;28/08/2006;Fosso Cailin;Norte;18200;;Não;21;;Não;61500
+Ativo;Thoros Crakehall;19300;74;17/05/1952;Porto Real;terras da coroa;20700;R$ 17.500,00;Não;35;;Não;68500
+Inativo;Yara Tallhart;6400;57;25206;Correrrio;terras fluviais;3400;23500;Não;20;;Não;50500
+Ativo;Missandei Florent;000.000.282-00;56;25671;Harrenhal;Terras Fluviais;28300;56000;Não;6;;Não;84500
+Ativo;Catelyn  Dayne;000.000.213-00;68;21/11/1957;Ponta Tempestade;Terras da Tempestade;24500;16500;Não;22;;Não;34500
+Inativo;LYANNA TARTH;000.000.345-00;73;;Castelo Negro;Norte;19900 moedas;47000;Não;19;;Não;20500
+Ativo;Varys Lannister;000.000.367-00;67;08/11/1958;Pyke | Ilhas de Ferro;;21600 moedas;R$ 73.500,00;Sim;7;;Sim;24500
+Ativo;Ellaria Targaryen;000.000.149-00;54;24/10/1971;Fosso Cailin;NORTE;18700;46000;Sim;4;;Sim;27500
+Ativo;Bronn Royce;36900;61;23928;Solar do Entardecer;Terras da Tempestade;22900;7500;Não;12;;Não;33000
+Ativo;Varys Lannister;000.000.010-00;60;08/11/1965;Ninho da Águia;vale;22600;80000 moedas;Não;9;;Não;58500
+Ativo;Rickon Karstark;36000;26;17/02/2000;Castelo Negro | Norte;;4800;48500 moedas;Sim;6;;Sim;56500
+Inativo;Bronn Baratheon;32500;48;28446;Pedra do Dragão;terras da coroa;6900;52500;Sim;0;;Sim;66000
+Ativo;Jojen Dayne;000.000.199-00;69;;Solar do Entardecer;terras da tempestade;11400;0;sim;13;;sim;79000
+Ativo;Podrick Dayne;22300;25;01/11/2000;Vilavelha;Campina;9.400;51500;Não;14;;Não;74000
+Ativo;Sandor Clegane;000.000.164-00;62;23317;Winterfell;Norte;10500;0;Sim;4 batalhas;;Sim;54500
+Ativo;Thoros Westerling;25700;27;36152;Jardim de Cima;CAMPINA;30000;27.000;não;28;;não;28500
+Ativo;Stannis Westerling;000.000.071-00;;11/03/1995;Lannisporto;oeste;9000;66000;Não;24;;Não;72000
+Inativo;Davos Tyrell;000.000.079-00;65;22275;Ninho da Águia;Vale;3300;43500;Não;27 batalhas;;Não;23500
+Ativo;Melisandre Cerwyn;000.000.120-00;29;23/11/1996;Atalaia da Água Cinzenta;;6400 moedas;19500;Não;30;;Não;51000
+Ativo;Thoros  Frey;000.000.113-00;55;25844;Jardim de Cima;CAMPINA;17.400;R$ 75.500,00;Não;9;;Não;52000
+Inativo;Missandei Glover;34000;38;07/12/1987;Ponta Tempestade;TERRAS DA TEMPESTADE;15.800;14500;Não;4;;Não;21000
+Ativo;Gilly Glover;2200;58;24840;Atalaia da Água Cinzenta;gargalo;R$ 2.800,00;R$ 35.000,00;Não;36;;Não;9000
+Ativo;Robb Reed;000.000.246-00;;19/06/1997;Harrenhal;Terras Fluviais;9600;R$ 41.000,00;Não;27;;Não;25000
+Inativo;Petyr Mallister;11600;;32890;Correrrio;terras fluviais;28.100;36.500;Não;13;;Não;5000
+Inativo;Cersei Tarth;20300;46;25/07/1980;Harrenhal;TERRAS FLUVIAIS;;37500;Não;;;Não;77000
+Inativo;loras payne;000.000.027-00;30;15/05/1996;Braavos;ESSOS;26500;14500;0;15;;0;39000
+Ativo;Rickon Frey;000.000.013-00;60;24202;Solar do Entardecer;Terras da Tempestade;R$ 5.500,00;0;Nao;26;;Nao;52500
+Ativo;Loras  Tarth;000.000.286-00;43;30437;Porto Real;Terras da Coroa;14600;18500;sim;22;;sim;16500
+Ativoo;Jon Hornwood;33100;;36759;Dorne;Dorne;23200;54500;1;26;;1;39500
+Ativo;Meera Reed;000.000.314-00;53;12/10/1972;Fosso Cailin;Norte;12200;R$ 79.500,00;Nao;45;;Nao;62000
+Ativoo;Theon Frey;000.000.123-00;19;07/05/2007;Monte Chifre;Campina;R$ 7.200,00;16000;Não;5;;Não;52000
+Inativo;Renly Tallhart;11700;27;36151;Winterfell;Norte;R$ 25.900,00;0;Sim;10;;Sim;5000
+Ativo;Yara Mallister;000.000.134-00;44;29892;Lannisporto;Oeste;20600;8000;Não;39;;Não;36000
+Ativo;Grey Worm Targaryen;000.000.060-00;48;28689;Ponta Tempestade;Terras da Tempestade;R$ 18.700,00;11000;Não;28;;Não;18000
+Ativo;Sandor Dondarrion;8200;20;38894;Ilha dos Ursos;norte;24900;0;Sim;14;;Sim;49500
+Inativo;Robert Manderly;23000;53;26744;Pyke;Ilhas de Ferro;R$ 26.400,00;9500;não;21;;não;16000
+Inativo;Margaery Tyrell;000.000.107-00;31;34824;Solar do Entardecer;Terras da Tempestade;R$ 29.500,00;5000;Não;22;;Não;18000
+Ativo;DAARIO TARLY;000.000.046-00;32;34508;Dorne;Dorne;9800;0;Não;23;;Não;68000
+Inativo;Tyrion Clegane;000.000.281-00;51;27590;Monte Chifre;Campina;11400 moedas;0;Não;17;;Não;55500
+;Viserys Hightower;000.000.080-00;54;14/04/1972;Monte Chifre;Campina;20800 moedas;16000 moedas;Nao;32;;Nao;31500
+Inativo;Aegon Umber;000.000.356-00;66;04/07/1960;Meereen;ESSOS;16800;79500;Não;36;;Não;1500
+Inativo;Cersei Tarth;20300;46;25/07/1980;Harrenhal;TERRAS FLUVIAIS;;37500;Não;;;Não;21500
+Ativo;Melisandre Glover;000.000.329-00;22;05/08/2004;Ninho da Águia;Vale;10500;50.500;Não;16;;Não;41500
+Ativo;Jon Baelish;21400;67;19/05/1959;Meereen;Essos;10700;R$ 9.000,00;Não;37;;Não;53000
+Ativo;Bran Tarly;000.000.269-00;53;06/05/1973;Braavos;Essos;sem renda;R$ 21.500,00;Sim;44;;Sim;3500
+Inativo;Eddard Dayne;3200;31;34746;Braavos;ESSOS;R$ 18.200,00;78500;Não;9;;Não;73000
+Ativo;Thoros Tarth;000.000.280-00;41;31156;Fosso Cailin;NORTE;R$ 26.500,00;29500 moedas;Não;5;;Não;75000
+Inativo;Renly Bolton;20600;55;26075;Ninho da Águia;Vale;R$ 21.100,00;67.500;Não;15;;Não;20000
+Ativo;Rhaegar Payne;000.000.253-00;60;24272;Monte Chifre;CAMPINA;17300;R$ 15.000,00;Não;17;;Não;69000
+Ativo;Bronn Dondarrion;000.000.036-00;49;11/01/1977;Jardim de Cima;campina;20300;12.000;Sim;27;;Sim;67500
+;;;;;;;;;;;;;
+;;;;;;;;;;;;;
+;;;;;;;;;;;;;
+;;;;;;;;;;;;;
+;;;;;;;;;;;;;
+;;;;;;;;;;;;;
+;;;;;;;;;;;;;
+;;;;;;;;;;;;;
+;;;;;;;;;;;;;
+;;;;;;;;;;;;;
+;;;;;;;;;;;;;
+;;;;;;;;;;;;;
+;;;;;;;;;;;;;
+;;;;;;;;;;;;;
+;;;;;;;;;;;;;
+;;;;;;;;;;;;;
+;;;;;;;;;;;;;
+;;;;;;;;;;;;;
+;;;;;;;;;;;;;
+;;;;;;;;;;;;;
+;;;;;;;;;;;;;
+;;;;;;;;;;;;;
+;;;;;;;;;;;;;
+;;;;;;;;;;;;;
+;;;;;;;;;;;;;
+;;;;;;;;;;;;;
+;;;;;;;;;;;;;
+;;;;;;;;;;;;;
+;;;;;;;;;;;;;
