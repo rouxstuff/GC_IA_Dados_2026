@@ -1,16 +1,25 @@
 ** ANTES DE TUDO LIMPAR OS DADOS E PREENCHER AS COLUNAS QUE FALTAM DADOS **
+    - tabela flag_inadimplente DUPLICADA
+    - datas de nascimento aprensentam erro
+    - valores monetarios contem texto
+    - idade sem valores (conferir dados das imagens)
+    - conferir se STATUS foi informado
 
 01 Preencher coluna risco:
     - até 10 batalhas = baixo
     - 11 a 25 = médio
     - acima de 25 = alto
+        - adicionar condicional para ajudar a identificação do risco durante a analise
+    
 
 02 - Criar uma coluna analise_risco
     - risco + flag_inadimplente (caloteiro)
-    - Se a solicitação deve ser negada ou não
+        - risco ALTO e flag_inadimplente = SIM | NEGADO
+        - flag_inadimplente = SIM mas risco for BAIXO/MÉDIO | APROVADO
 
 03 - Criar coluna condicional
-    - Se o crédito tomado por > 50k e a flag_inadimplente = S tem que ser NEGADO.
+    - Se o crédito tomado for > 50k e a flag_inadimplente = S tem que ser NEGADO.
+        - =SE([valor_solicitado] > 50.000; E([flag_inadimplente] = "Sim") ; "NEGADO")
 
 04 - Liberação de crédito
     - criar coluna liberação_de_credito
