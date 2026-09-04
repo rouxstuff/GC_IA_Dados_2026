@@ -1,0 +1,20 @@
+** ANTES DE TUDO LIMPAR OS DADOS E PREENCHER AS COLUNAS QUE FALTAM DADOS **
+
+01 Preencher coluna risco:
+    - até 10 batalhas = baixo
+    - 11 a 25 = médio
+    - acima de 25 = alto
+
+02 - Criar uma coluna analise_risco
+    - risco + flag_inadimplente (caloteiro)
+    - Se a solicitação deve ser negada ou não
+
+03 - Criar coluna condicional
+    - Se o crédito tomado por > 50k e a flag_inadimplente = S tem que ser NEGADO.
+
+04 - Liberação de crédito
+    - criar coluna liberação_de_credito
+        - caso a PRIMEIRA e a SEGUNDA analise retornarem AMBAS NEGATIVAS
+            - negar o crédito, resultando 0 na coluna
+        - caso analise seja POSITIVA e o STATUS do cliente seja Ativo
+            - multiplicar o valor solicitado pela taxa de juros fixa de 8%
