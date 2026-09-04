@@ -5,6 +5,12 @@
     - idade sem valores (conferir dados das imagens)
     - conferir se STATUS foi informado
 
+** DADOS RELEVANTES PARA LIBERAÇÃO DE CRÉDITO**
+    - Nome
+    - CPF
+    - Status = Ativo
+    - data de nascimento
+
 01 Preencher coluna risco:
     - até 10 batalhas = baixo
     - 11 a 25 = médio
