@@ -46,7 +46,7 @@
     - Crtl + U para filtrar "batalhas" e remover o texto.
     - =SE(ÉNÚM(C2); TEXTO(VALOR(SUBSTITUIR(TEXTO(C2;"Geral");",0";"")); "000\.000\.000\-00"); C2) para formatar os cpfs.
     - Localizar os NOMES/CPFs duplicados, STATUS vazios, etc.
-    - =DATADIF(F2; HOJE(); "Y") conferir as idades.
+    - =DATADIF(F2; HOJE(); "Y") conferir as idades. 
 
 4 - Inserção das novas colunas (analise_risco e liberação_de_credito) e inserção de dados na coluna risco. 
     - Calculo do nivel de risco: 
@@ -54,5 +54,6 @@
     - Calculo analise de risco:
         - =SE(E(L2="ALTO"; J2="Sim"); "NEGADO"; "APROVADO")
     - Calculo condicional:
-        - =SE(E(L2="ALTO"; J2="Sim"); "NEGADO"; "APROVADO")
-
+        - =SE(OU(E(I2>50000; J2="Sim"); E(H2>50000; J2="Sim")); "NEGADO"; "APROVADO")
+    - Calculo liberacao_de_credito:
+        - =SE(E(N2="NEGADO";O2="NEGADO");0;SE(E(OU(N2="APROVADO";O2="APROVADO");A2="ATIVO");M2*8%;0))
