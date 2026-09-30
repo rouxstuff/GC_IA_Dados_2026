@@ -1,0 +1,59 @@
+** ANTES DE TUDO LIMPAR OS DADOS E PREENCHER AS COLUNAS QUE FALTAM DADOS **
+    - tabela flag_inadimplente DUPLICADA
+    - datas de nascimento aprensentam erro
+    - valores monetarios contem texto
+    - idade sem valores (conferir dados das imagens)
+    - conferir se STATUS foi informado
+
+** DADOS RELEVANTES PARA LIBERAÇÃO DE CRÉDITO**
+    - Nome
+    - CPF
+    - Status = Ativo
+    - data de nascimento
+
+01 Preencher coluna risco:
+    - até 10 batalhas = baixo
+    - 11 a 25 = médio
+    - acima de 25 = alto
+        - adicionar condicional para ajudar a identificação do risco durante a analise
+    
+
+02 - Criar uma coluna analise_risco
+    - risco + flag_inadimplente (caloteiro)
+        - risco ALTO e flag_inadimplente = SIM | NEGADO
+        - flag_inadimplente = SIM mas risco for BAIXO/MÉDIO | APROVADO
+
+03 - Criar coluna condicional
+    - Se o crédito tomado for > 50k e a flag_inadimplente = S tem que ser NEGADO.
+        - =SE([valor_solicitado] > 50.000; E([flag_inadimplente] = "Sim") ; "NEGADO")
+
+04 - Liberação de crédito
+    - criar coluna liberação_de_credito
+        - caso a PRIMEIRA e a SEGUNDA analise retornarem AMBAS NEGATIVAS
+            - negar o crédito, resultando 0 na coluna
+        - caso analise seja POSITIVA e o STATUS do cliente seja Ativo
+            - multiplicar o valor solicitado pela taxa de juros fixa de 8%
+
+** PASSOS FEITOS **
+
+1 - Colocar os dados das imagens na tabela através do recurso de importar dados de uma imagem do excel.
+
+2 - Limpeza dos dados inseridos através das imagens e ajustando manualmente os dados que não foram transferidos pelo recurso.
+   
+3 - Formatação dos dados da planilha e Organização do cabeçalho.
+    - condidional para encontrar NOMES duplicados.
+    - Filtrar cidades para ver quais estavam com as regiões faltando ou na celula errada.
+    - Crtl + U para filtrar "batalhas" e remover o texto.
+    - =SE(ÉNÚM(C2); TEXTO(VALOR(SUBSTITUIR(TEXTO(C2;"Geral");",0";"")); "000\.000\.000\-00"); C2) para formatar os cpfs.
+    - Localizar os NOMES/CPFs duplicados, STATUS vazios, etc.
+    - =DATADIF(F2; HOJE(); "Y") conferir as idades. 
+
+4 - Inserção das novas colunas (analise_risco e liberação_de_credito) e inserção de dados na coluna risco. 
+    - Calculo do nivel de risco: 
+        - =SE(K2<=10; "BAIXO"; SE(K2<=25; "MÉDIO"; "ALTO"))
+    - Calculo analise de risco:
+        - =SE(E(L2="ALTO"; J2="Sim"); "NEGADO"; "APROVADO")
+    - Calculo condicional:
+        - =SE(OU(E(I2>50000; J2="Sim"); E(H2>50000; J2="Sim")); "NEGADO"; "APROVADO")
+    - Calculo liberacao_de_credito:
+        - =SE(E(N2="NEGADO";O2="NEGADO");0;SE(E(OU(N2="APROVADO";O2="APROVADO");A2="ATIVO");M2*8%;0))
