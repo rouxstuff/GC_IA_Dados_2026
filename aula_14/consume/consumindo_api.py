@@ -33,5 +33,3 @@ while True:
  
     except requests.exceptions.RequestException as erro:
         print(f"Erro de conexão: {erro}")
-
-    
