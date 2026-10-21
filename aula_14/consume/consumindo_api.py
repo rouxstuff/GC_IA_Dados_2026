@@ -1,5 +1,6 @@
 import requests
- 
+
+# API 
 URL_BASE = "https://www.fruityvice.com/api/fruit"
  
 print("Bem-vindo ao Consulta Frutas!")
