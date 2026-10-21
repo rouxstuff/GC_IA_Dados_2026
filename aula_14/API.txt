@@ -10,3 +10,8 @@ Application Programing Interface
 API Gateway
     - Servidor proxy reverso e gerenciador de tráfego.
     - Intermediar, proteger e direcionar as chamadas para as APIs
+
+Endpoint
+    - É a URL específica de um servidor onde uma API recebe solicitação e entrega um recurso/serviço
+    - URL é substantivo (/produtos), nunca um verbo (/buscarProdutos)
+    
