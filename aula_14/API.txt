@@ -1,0 +1,12 @@
+Application Programing Interface
+    - Funciona como fonte de comunicação
+        - Conjunto de rotas/regras de software
+    - Cliente x Servidor
+        - Relação binária
+        - Baseada em Request e Response
+    - APIs Publicas: abertas ao público. ex: Open-Meteo
+    - APIs Privadas: exigem cadastro, autenticação ou pagamento.
+
+API Gateway
+    - Servidor proxy reverso e gerenciador de tráfego.
+    - Intermediar, proteger e direcionar as chamadas para as APIs
