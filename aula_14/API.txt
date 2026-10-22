@@ -1,3 +1,5 @@
+!! FAVOR IGNORAR pokeAPI eu fiz de brincadeira !!
+
 Application Programing Interface
     - Funciona como fonte de comunicação
         - Conjunto de rotas/regras de software
