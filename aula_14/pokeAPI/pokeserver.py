@@ -10,7 +10,7 @@ POKEAPI_URL = "https://pokeapi.co/api/v2/pokemon?limit=151"
 
 
 def init_pokedex():
-    """Carrega os pokémons da PokeAPI para a memória."""
+    """Carrega os pokémons da PokeAPI para a memória. Retorna True se deu certo."""
     try:
         response = requests.get(POKEAPI_URL, timeout=10)
         response.raise_for_status()
@@ -25,13 +25,22 @@ def init_pokedex():
                 'o_url': item['url']
             }
         print(f'-> PokeAPI: {len(pokedex)} pokémons carregados com sucesso!')
-    except requests.RequestException as e:
-        print('Erro ao carregar a pokedex:', e)
+        return True
+    except (requests.RequestException, ValueError) as e:
+        print('ERRO ao carregar a pokedex da PokeAPI:', e)
+        return False
+
+
+def ensure_pokedex():
+    """Se a carga inicial falhou (ex.: sem internet na hora), tenta de novo."""
+    if not pokedex:
+        init_pokedex()
 
 
 # 1. GET - Listar pokémons (com paginação)
 @app.route('/pokemon', methods=['GET'])
 def list_all():
+    ensure_pokedex()
     page = max(request.args.get('page', 1, type=int), 1)
     limit = max(request.args.get('limit', 50, type=int), 1)
     start = (page - 1) * limit
@@ -43,6 +52,7 @@ def list_all():
 # 2. GET - Buscar um pokémon por ID ou nome
 @app.route('/pokemon/<string:identificator>', methods=['GET'])
 def search_pokemon(identificator):
+    ensure_pokedex()
     if identificator.isdigit():
         pokemon = pokedex.get(int(identificator))
         if pokemon:
@@ -105,4 +115,5 @@ def delete_pokemon(poke_id):
 
 if __name__ == '__main__':
     init_pokedex()
-    app.run(debug=True, use_reloader=False, port=5000)
+    # use_reloader=False evita que o init_pokedex rode duas vezes no modo debug
+    app.run(host='127.0.0.1', port=5000, debug=True, use_reloader=False)
