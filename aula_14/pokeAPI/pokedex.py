@@ -175,7 +175,7 @@ class PokedexApp:
         def work():
             r = requests.get(SPRITE_URL.format(id=poke_id), timeout=10)
             r.raise_for_status()
-            img = Image.open(io.BytesIO(r.content)).convert("RGBA")
+            img = Image.open(io.BytesIO(r.content)).convert("RGBA") 
             img.thumbnail(IMG_SIZE)
             return img
 
