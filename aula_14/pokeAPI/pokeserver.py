@@ -37,7 +37,7 @@ def ensure_pokedex():
         init_pokedex()
 
 
-# 1. GET - Listar pokémons (com paginação)
+# 1. GET - Listar pokémons
 @app.route('/pokemon', methods=['GET'])
 def list_all():
     ensure_pokedex()
@@ -115,5 +115,4 @@ def delete_pokemon(poke_id):
 
 if __name__ == '__main__':
     init_pokedex()
-    # use_reloader=False evita que o init_pokedex rode duas vezes no modo debug
     app.run(host='127.0.0.1', port=5000, debug=True, use_reloader=False)
