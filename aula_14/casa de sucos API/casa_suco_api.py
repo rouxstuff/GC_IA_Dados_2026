@@ -10,7 +10,6 @@ sucos = []  # lista em memória
 def buscar_fruta(nome):
     """Consulta a Fruityvice e devolve nome, calorias e açúcar."""
     resp = requests.get(f"https://www.fruityvice.com/api/fruit/{nome.strip().lower()}", timeout=10)
-
     if resp.status_code != 200:
         raise HTTPException(404, f"Fruta '{nome}' não encontrada. Use o nome em inglês (ex.: banana).")
 
