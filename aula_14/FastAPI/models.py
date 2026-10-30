@@ -6,10 +6,10 @@ from sqlalchemy_utils.types import ChoiceType
 db = create_engine("sqlite:///database.db")
 
 # cria a base do banco de dados
-base = declarative_base()
+Base = declarative_base()
 
 # cria as classes/tableas do banco
-class User(base):
+class User(Base):
     # restrições da tabela
     __tablename__ = "users"
     
@@ -29,18 +29,18 @@ class User(base):
         self.admin = admin
 
 #
-class Order(base):
+class Order(Base):
     __tablename__ = "orders"
 
     # (("chave", valor))
-    STATUS_ORDER = (
-        ("PENDENTE", "PENDENTE"),
-        ("CANCELADO", "CANCELADO"),
-        ("FINALIZADO", "FINALIZADO")
-    )
+    #STATUS_ORDER = (
+       # ("PENDENTE", "PENDENTE"),
+        #("CANCELADO", "CANCELADO"),
+        #("FINALIZADO", "FINALIZADO")
+    #)
 
     id = Column("id", Integer, primary_key=True, autoincrement=True)
-    status = Column("status", ChoiceType(choices=STATUS_ORDER))
+    status = Column("status", String)
     user = Column("user", ForeignKey("users.id"))
     price = Column("price", Float)
     #itens =
@@ -49,7 +49,7 @@ class Order(base):
         self.user = user
         self.price = price
         self.status = status
-
+#
 class ItemOrder(Base):
     __tablename__ = "item_orders"
 
@@ -58,4 +58,10 @@ class ItemOrder(Base):
     price = Column("price", Float)
     order = Column("order", ForeignKey("orders.id"))
 
+    def __init__(self, quantity, price, order):
+        self.quantity = quantity
+        self.price = price
+        self.order = order
+
+#
 # executa a criação dos metadados do seu banco (cria efetivamente o banco de dados)
