@@ -21,7 +21,7 @@ class User(Base):
     admin = Column("admin", Boolean, default=False) # por padrão não é admin
 
     # criação do usuário
-    def __int__(self, name, email, password, active=True, admin=False):
+    def __init__(self, name, email, password, active=True, admin=False):
         self.name = name
         self.email = email
         self.password = password
