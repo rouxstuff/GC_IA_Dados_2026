@@ -27,16 +27,40 @@ DELETE -- remove
 
 1. Qual é o status? Qual o número que vem primeiro? (2, 4 ou 5?)
     - 401 = olhar primeiro autenticação
+    
     - 404 = olhar primeiro no path
+        exemplo:
+        GET /filme/2                       # deveria ser GET/filmes/2
+        -> 404 {"detail": "Not Found"}
+    
     - 405 = olhar primeiro o metodo
+        exemplo:
+            POST /filmes/2
+            -> 405 {"detail": "Method Not Allowed"}
+    
     - 422 = olhar no corpo, olhar os parametros
-    - 500 = fodeu
-    - cuidar com 200 enganoso (filtros que aplicamos) 
+        exemplo:
+            POST /filmes
+            {
+                "titulo": "A Névoa do Pântano", 
+                "genero": "zumbi", 
+                "ano": 2026, 
+                "nota": 12
+            }
+            → 422  {"detail": "nota deve estar entre 0 e 10"}
+    
+    - 500 = AJOELHA E REZA PAE
+    
+    - 200 enganoso (filtros que aplicamos) 
         - não tem dados para retornar
-            exemplo: [{
+            exemplo: 
+            [{
                 "nome": "",
                 "idade": "",
             }]
+            exemplo 2:
+            GET /filmes?genero=zumbis
+            -> 200 []
 
 2. De quem é o erro? (Se começa com 4: pedido. Começa com 5: da API)
 
