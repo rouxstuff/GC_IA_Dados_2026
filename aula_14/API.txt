@@ -1,19 +1,45 @@
-!! FAVOR IGNORAR pokeAPI eu fiz de brincadeira !!
+cliente -- pedido --> API -- resposta --> cliente
 
-Application Programing Interface
-    - Funciona como fonte de comunicação
-        - Conjunto de rotas/regras de software
-    - Cliente x Servidor
-        - Relação binária
-        - Baseada em Request e Response
-    - APIs Publicas: abertas ao público. ex: Open-Meteo
-    - APIs Privadas: exigem cadastro, autenticação ou pagamento.
+GET -- busca
+POST -- criar 
+PUT -- susbtitui
+PATCH -- altera 
+DELETE -- remove
 
-API Gateway
-    - Servidor proxy reverso e gerenciador de tráfego.
-    - Intermediar, proteger e direcionar as chamadas para as APIs
+-- STATUS CODES COMUNS --
 
-Endpoint
-    - É a URL específica de um servidor onde uma API recebe solicitação e entrega um recurso/serviço
-    - URL é substantivo (/produtos), nunca um verbo (/buscarProdutos)
-    
+200 - OK - DEU CERTO, AQUI TA OS DADOS
+
+201 - OK - POST DEU CERTO, CRIOU O QUE VOCE ENVIOU
+
+401 - NAO OK - NAO AUTENTICADO, FALTOU A CHAVE/TOKEN OU O TOKEN ESTÁ ERRADO.
+
+404 - NÃO OK - NÃO ENCONTRADO, O ENDEREÇO OU O ID QUE VOCE REQUISITOU NÃO EXISTE
+
+405 - NÃO OK - MÉTODO NÃO PERMITIDO, O ENDEREÇO EXISTE, MAS NÃO ACEITA O MÉTODO QUE VOCE UTILIZOU.
+
+422 - DADOS INVÁLIDOS - O CORPO OU O PARAMETRO QUE VOCE UTILIZOU NÃO SEGUE O COMBINADO DA API.
+
+500 - ERRO INTERNO - NAO TEM O QUE FAZER, FUDEU, SERVIDOR CAIU
+
+#
+#
+
+1. Qual é o status? Qual o número que vem primeiro? (2, 4 ou 5?)
+    - 401 = olhar primeiro autenticação
+    - 404 = olhar primeiro no path
+    - 405 = olhar primeiro o metodo
+    - 422 = olhar no corpo, olhar os parametros
+    - 500 = fodeu
+    - cuidar com 200 enganoso (filtros que aplicamos) 
+        - não tem dados para retornar
+            exemplo: [{
+                "nome": "",
+                "idade": "",
+            }]
+
+2. De quem é o erro? (Se começa com 4: pedido. Começa com 5: da API)
+
+3. Qual parte do pedido está errada? Método, endereço ou corpo?
+
+4. O que o corpo da resposta tá me dizendo?
