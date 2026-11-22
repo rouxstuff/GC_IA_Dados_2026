@@ -1,0 +1,123 @@
+{
+  "name": "Promoções Steam no Discord",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "hours",
+              "hoursInterval": 6
+            }
+          ]
+        }
+      },
+      "name": "Schedule Trigger",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        0,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "url": "https://store.steampowered.com/api/featuredcategories",
+        "sendQuery": true,
+        "queryParameters": {
+          "parameters": [
+            {
+              "name": "cc",
+              "value": "br"
+            },
+            {
+              "name": "l",
+              "value": "portuguese"
+            }
+          ]
+        }
+      },
+      "name": "Steam API",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        220,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "const data = $input.first().json;\nconst items = data.specials?.items ?? [];\n\nconst MIN_DISCOUNT = 50; // desconto mínimo em %\nconst store = $getWorkflowStaticData('global');\nconst seen = store.seen ?? {};\n\nconst brl = (v) => 'R$ ' + (v / 100).toFixed(2).replace('.', ',');\nconst embeds = [];\n\nfor (const g of items) {\n  if (g.discount_percent < MIN_DISCOUNT) continue;\n\n  const key = `${g.id}-${g.discount_percent}`;\n  if (seen[key]) continue;\n  seen[key] = Date.now();\n\n  embeds.push({\n    title: g.name,\n    url: `https://store.steampowered.com/app/${g.id}`,\n    description: `🔥 **-${g.discount_percent}%**  ~~${brl(g.original_price)}~~ → **${brl(g.final_price)}**`,\n    color: 0x66c0f4,\n    thumbnail: { url: g.small_capsule_image },\n  });\n}\n\n// limpa registros com mais de 14 dias\nconst limit = Date.now() - 14 * 24 * 60 * 60 * 1000;\nfor (const k in seen) if (seen[k] < limit) delete seen[k];\nstore.seen = seen;\n\nif (embeds.length === 0) return [];\n\n// Discord aceita no máximo 10 embeds por mensagem\nconst out = [];\nfor (let i = 0; i < embeds.length; i += 10) {\n  out.push({\n    json: {\n      payload: {\n        username: 'Promoções Steam',\n        content: i === 0 ? `🕹️ **${embeds.length} promoções novas na Steam**` : '',\n        embeds: embeds.slice(i, i + 10),\n      },\n    },\n  });\n}\nreturn out;\n"
+      },
+      "name": "Filtrar promoções",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        440,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "COLE_AQUI_A_URL_DO_WEBHOOK_DO_DISCORD",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify($json.payload) }}",
+        "options": {
+          "batching": {
+            "batch": {
+              "batchSize": 1,
+              "batchInterval": 1500
+            }
+          }
+        }
+      },
+      "name": "Enviar para Discord",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        660,
+        0
+      ]
+    }
+  ],
+  "connections": {
+    "Schedule Trigger": {
+      "main": [
+        [
+          {
+            "node": "Steam API",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Steam API": {
+      "main": [
+        [
+          {
+            "node": "Filtrar promoções",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Filtrar promoções": {
+      "main": [
+        [
+          {
+            "node": "Enviar para Discord",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  }
+}
