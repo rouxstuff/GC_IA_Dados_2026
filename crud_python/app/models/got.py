@@ -1,10 +1,17 @@
-from datetime import datetime
 import uuid
-from sqlmodel import SQLModel, Field
+from datetime import datetime, timezone
 from typing import Optional
 
-def generate_uuid():
+from sqlmodel import SQLModel, Field
+
+
+def generate_uuid() -> str:
     return str(uuid.uuid4())
+
+
+def utcnow() -> datetime:
+    return datetime.now(timezone.utc)
+
 
 # Base model
 class CharacterBase(SQLModel):
@@ -15,24 +22,30 @@ class CharacterBase(SQLModel):
     idade: int = Field(default=0, ge=0)  # idade must be non-negative
     vivo: bool = Field(default=True)
 
-#GOT Character model
+
+# GOT Character model (database table)
 class Character(CharacterBase, table=True):
     """Character model for database table."""
-    id: int = Field(default_factory=generate_uuid, primary_key=True, index=True)
+    id: str = Field(default_factory=generate_uuid, primary_key=True, index=True)
+    created_at: datetime = Field(default_factory=utcnow, nullable=False)
+    updated_at: datetime = Field(default_factory=utcnow, nullable=False)
 
+
+# Create model
 class CharacterCreate(CharacterBase):
     """Model for creating a new character."""
     pass
 
-# Read a character at table
+
+# Read model
 class CharacterRead(CharacterBase):
     """Model for reading a character."""
-    id: int
+    id: str
     created_at: datetime
     updated_at: datetime
 
 
-# Update Model
+# Update model
 class CharacterUpdate(SQLModel):
     """Model for updating a character."""
     nome: Optional[str] = None
